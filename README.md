@@ -26,3 +26,21 @@ UI solution (Selenium-based): To verify price updates directly from the website.
 Cucumber + Gherkin support (optional but good to have): To define readable, behavior-driven tests.
 
 Fully runnable test cases using the above frameworks.
+
+
+
+To run the tests, first install the dependencies:
+
+npm install
+
+Then run the API-based tests:
+
+node api_test_runner.js
+
+Next, run the UI-based tests:
+
+node ui_test_runner.js
+
+Finally, execute the Cucumber (Gherkin-based) tests:
+
+npx cucumber-js
