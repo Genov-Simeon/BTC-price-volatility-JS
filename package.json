@@ -1,0 +1,17 @@
+{
+  "name": "nexo",
+  "version": "1.0.0",
+  "description": "Nexo desc",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cucumber/cucumber": "^11.2.0",
+    "axios": "^1.8.4",
+    "selenium-webdriver": "^4.31.0"
+  }
+}
